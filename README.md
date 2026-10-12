@@ -51,7 +51,7 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [MavProxy](https://github.com/zavaranak/MavProxy) | MAVProxy ground station adapted for waterjet-engine vehicles | Python, MAVLink |
+| [MavProxy](https://github.com/zavaranak/MavProxy) | MAVProxy ground station adapted for jet ski engines | Python, MAVLink |
 | [ZVRNK_CANTool](https://github.com/zavaranak/ZVRNK_CANTool) · [ZVRNK_CANAnalyzer](https://github.com/zavaranak/ZVRNK_CANAnalyzer) | Desktop tools for inspecting and analysing CAN bus traffic | C++, CMake |
 | [ZVRNKPts](https://github.com/zavaranak/ZVRNKPts) | Image-compositing command-line tool with a desktop UI | Python |
 | [ZVRNK-CAN-TOOL](https://github.com/zavaranak/ZVRNK-CAN-TOOL) | CAN analyzer for the Waveshare USB-CAN-B adapter | C# |
