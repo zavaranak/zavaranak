@@ -83,8 +83,10 @@ Source for these is private; happy to walk through any of them.
 | **Logistics business manager** | Operations and bookkeeping system for a shipping company |
 | **Client marketing website** | Static site for a local business |
 
+<a href="https://app.daily.dev/zvrnk"><img src="https://api.daily.dev/devcards/v2/JWdeowpoV8VNTj63DpEC7.png?type=default&r=1" width="400" alt="Dang's Dev Card"/></a>
+
 <br />
 
 ### **Find me 📫**
 
-📍 Vietnam &nbsp;·&nbsp; 🏢 Century Ltd – Century R&D &nbsp;·&nbsp; [github.com/zavaranak](https://github.com/zavaranak)
+📍 Vietnam &nbsp;·&nbsp; 🏢 Century Ltd – Century R&D &nbsp;·&nbsp; [github.com/zavaranak](https://github.com/zavaranak) &nbsp;·&nbsp; [daily.dev/zvrnk](https://daily.dev/zvrnk)
