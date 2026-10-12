@@ -31,28 +31,18 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 ![RTSP / WebRTC](https://img.shields.io/badge/RTSP_/_WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Embassy](https://img.shields.io/badge/Embassy-5A2D82?style=flat-square)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 
 ### **Web & application development 💻**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat-square&logo=SASS&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-222c37?style=flat-square&logo=unity&logoColor=white)
 
 <br />
@@ -77,12 +67,7 @@ Source for these is private; happy to walk through any of them.
 | --- | --- |
 | **ZaCam (ZC)** | Surveillance platform |
 | **ZaTrack (ZT)** | Tracking platform, part of the same ecosystem as ZaCam |
-| **Embedded Networking Gateway** | Protocol-bridging firmware for local devices, with network failover and a host simulator |
-| **AudioStreamer** | Live audio streaming from a small microphone device to the browser |
-| **ESP32-CAM streaming** | Camera firmware with an on-demand relay to the browser |
-| **Edge object detection** | Real-time object detection with NCNN on Jetson Orin NX and Raspberry Pi 5 |
-| **Logistics business manager** | Operations and bookkeeping system for a shipping company |
-| **Client marketing website** | Static site for a local business |
+| **TanVuBusinessManager** | Operations and bookkeeping system for a shipping company |
 
 <a href="https://app.daily.dev/zvrnk"><img src="https://api.daily.dev/devcards/v2/JWdeowpoV8VNTj63DpEC7.png?type=default&r=1" width="400" alt="Dang's Dev Card"/></a>
 
