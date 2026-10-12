@@ -11,7 +11,7 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 - **Ground control & field tooling** – MAVProxy / Mission Planner extensions, CAN bus analyzers, radio link monitoring over SNMP
 - **Connected devices** – ESP32 and IP-camera firmware with their own media relay, MQTT control and web UI, no vendor cloud
 - **Embedded Rust** – `no_std` firmware on Embassy with an ArduPilot-style HAL, board packages and a host simulator
-- **Edge computer vision** – YOLO on Raspberry Pi 5, CPU-only via NCNN
+- **Edge computer vision** – YOLO with NCNN on Jetson Orin NX and Raspberry Pi 5
 - **Full-stack applications** – Next.js and NestJS + GraphQL backends on PostgreSQL, Go microservices, Kotlin mobile apps
 
 <br />
@@ -24,6 +24,7 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 ![SNMP](https://img.shields.io/badge/SNMP-0A7E8C?style=flat-square)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Jetson Orin NX](https://img.shields.io/badge/Jetson_Orin_NX-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=flat-square&logo=platformio&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
@@ -78,8 +79,8 @@ Source for these is private; happy to walk through any of them.
 | **Embedded Networking Gateway** | Protocol-bridging firmware for local devices, with network failover and a host simulator |
 | **AudioStreamer** | Live audio streaming from a small microphone device to the browser |
 | **ESP32-CAM streaming** | Camera firmware with an on-demand relay to the browser |
-| **Pi 5 object detection** | Real-time object detection on a Raspberry Pi 5, CPU only |
-| **imagehandler** | Image-compositing command-line tool with a desktop UI |
+| **Edge object detection** | Real-time object detection with NCNN on Jetson Orin NX and Raspberry Pi 5 |
+| **ZVRNKPts** | Image-compositing command-line tool with a desktop UI, part of the ZVRNK tools family |
 | **Logistics business manager** | Operations and bookkeeping system for a shipping company |
 | **Client marketing website** | Static site for a local business |
 
