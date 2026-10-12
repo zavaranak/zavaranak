@@ -1,18 +1,18 @@
-<h1><strong>Hi there, I'm Dang</strong> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
+<h1><strong>Hi there, I'm Dang (Zavar)</strong> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
 **Unmanned vehicle firmware & embedded developer**.
 I work on ArduPilot-based firmware, ground control software and the tooling around them. In my own time I build connected camera and audio devices, embedded Rust firmware, and full-stack web apps.
 
 <br />
 
-### **What I work on 🚤**
+### **What I work on **
 
-- **Unmanned vehicle firmware** – ArduPilot customisation, MAVLink routing and scripting
-- **Ground control & field tooling** – MAVProxy / Mission Planner extensions, CAN bus analyzers, radio link monitoring over SNMP
-- **Connected devices** – ESP32 and IP-camera firmware with their own media relay, MQTT control and web UI, no vendor cloud
-- **Embedded Rust** – `no_std` firmware on Embassy with an ArduPilot-style HAL, board packages and a host simulator
-- **Edge computer vision** – YOLO with NCNN on Jetson Orin NX and Raspberry Pi 5
-- **Full-stack applications** – Next.js and NestJS + GraphQL backends on PostgreSQL, Go microservices, Kotlin mobile apps
+- **Unmanned vehicle firmware**
+- **Ground control & field tooling**
+- **Connected devices IOT** – 
+- **Embedded Rust**
+- **Edge computer vision**
+- **Full-stack applications** 
 
 <br />
 
