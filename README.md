@@ -5,7 +5,7 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 
 <br />
 
-### **What I work on **
+### **What I work on**
 
 - **Unmanned vehicle firmware**
 - **Ground control & field tooling**
