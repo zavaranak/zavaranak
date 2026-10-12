@@ -64,9 +64,6 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 | [ZVRNK_CANTool](https://github.com/zavaranak/ZVRNK_CANTool) · [ZVRNK_CANAnalyzer](https://github.com/zavaranak/ZVRNK_CANAnalyzer) | Desktop tools for inspecting and analysing CAN bus traffic | C++, CMake |
 | [ZVRNK-CAN-TOOL](https://github.com/zavaranak/ZVRNK-CAN-TOOL) | CAN analyzer for the Waveshare USB-CAN-B adapter | C# |
 | [Microhard-pMDDL2350-SNMP-Script](https://github.com/zavaranak/Microhard-pMDDL2350-SNMP-Script) | Talks to Microhard pMDDL2350 radios over SNMP v2c | Python |
-| [renting-platform-backend](https://github.com/zavaranak/renting-platform-backend) | Rental platform API with auth, realtime and file upload | NestJS, GraphQL, PostgreSQL, gRPC |
-| [renting-email-service](https://github.com/zavaranak/renting-email-service) | Email microservice for the rental platform | Go |
-| [BookingMobileApp-](https://github.com/zavaranak/BookingMobileApp-) | Booking mobile client | Kotlin, Jetpack Compose |
 
 <br />
 
@@ -74,17 +71,17 @@ I work on ArduPilot-based firmware, ground control software and the tooling arou
 
 Source for these is private; happy to walk through any of them.
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **ZavarEye** | Turns an off-the-shelf Anyka AK3918 IP camera into a device on my own stack: rooted from an SD-card hook with no flashing, vendor cloud blocked, RTSP → WebRTC viewing, recording, a static ARMv5 MQTT agent and a bilingual web UI | Shell, C, go2rtc, Node/TypeScript, Vite, MQTT |
-| **Embedded Networking Gateway** | Protocol-bridging firmware (Modbus/serial → LAN, Wi-Fi or LTE with failover) structured like ArduPilot: abstract HAL, per-board support packages and a host simulator that runs the whole pipeline without hardware | Rust, Embassy, `no_std` |
-| **AudioStreamer** | ESP32-C3 + I2S microphone streaming live audio to the browser through a relay server, with MQTT control, WAV recording, GPS tracking and per-device login | PlatformIO, Node/TypeScript, WebSocket, MQTT |
-| **ESP32-CAM streaming** | RTSP camera firmware with a token-protected JSON API, plus a relay that pulls the stream only while someone is watching and forwards JPEG frames over WebSocket | PlatformIO, Node/TypeScript |
-| **ZavarTracker Camera** | ESP32-C3 relay and reset controller with a setup hotspot and a web control panel | Arduino-ESP32, MQTT, Node |
-| **Pi 5 object detection** | YOLO11n exported to NCNN FP16 for CPU-only inference on a 2 GB Raspberry Pi 5 | Python, Ultralytics, NCNN |
-| **imagehandler** | Chainable image-compositing CLI with a mouse-driven desktop UI in English and Vietnamese, shipped as a Windows installer | Python, Pillow, NumPy, Tk, PyInstaller |
-| **Logistics business manager** | Operations and bookkeeping system for a shipping company: trips, income and expenses, receivables, contracts, tasks, 7 roles with granular permissions, Docker/VPS deployment | Next.js 15, React 19, TypeScript, Tailwind, PostgreSQL |
-| **Client marketing website** | Static site for a local business | Astro |
+| Project | What it is |
+| --- | --- |
+| **ZaCam (ZC)** | Surveillance platform |
+| **ZaTrack (ZT)** | Tracking platform, part of the same ecosystem as ZaCam |
+| **Embedded Networking Gateway** | Protocol-bridging firmware for local devices, with network failover and a host simulator |
+| **AudioStreamer** | Live audio streaming from a small microphone device to the browser |
+| **ESP32-CAM streaming** | Camera firmware with an on-demand relay to the browser |
+| **Pi 5 object detection** | Real-time object detection on a Raspberry Pi 5, CPU only |
+| **imagehandler** | Image-compositing command-line tool with a desktop UI |
+| **Logistics business manager** | Operations and bookkeeping system for a shipping company |
+| **Client marketing website** | Static site for a local business |
 
 <br />
 
